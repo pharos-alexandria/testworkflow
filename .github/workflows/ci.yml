@@ -2,9 +2,9 @@ name: Hooktest and Release
 
 on:
   push:
-    # Dispatch when pushing to default branch; currently `master`
+    # Dispatch when pushing to default branch; currently `public`
     branches:
-    - master
+    - public
   # Dispatch on pull requests
   pull_request:
 jobs:
